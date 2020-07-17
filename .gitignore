@@ -1,0 +1,84 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+
+### SYSTEM FILES ###
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.com.apple.timemachine.donotpresent
+.DS_Store
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+*._*
+*.DS_STORE
+*.fseventsd
+Thumbs.db
+
+
+### DISK FILES ###
+.apdisk
+
+
+### IDE CONFIGS ###
+.c9/
+.classpath
+.idea_modules/
+.idea/
+.project
+.settings/
+.vscode/
+*.launch
+*.sublime-workspace
+atlassian-ide-plugin.xml
+
+
+### COMMON PROJECT FILES ###
+
+## logs
+**.log
+
+## compressed assets
+**.rar
+**.tgz
+**.zip
+
+## environment files
+# example file should be allowed
+# other patterns, such as .env.prod, should be disallowed
+.env*
+!.env.example
+
+# compiled output
+/dist
+/tmp
+/bin
+
+# dependencies
+/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+/typings
+npm-debug.log
+testem.log
+yarn-error.log
+
+## dump director-y-ies
+# this allows to create directories
+# at the root of the project directory
+# prefixed with an underscore
+# without committing them
+/_*
+
+
+### PROJECT-SPECIFIC FILES BELOW ###

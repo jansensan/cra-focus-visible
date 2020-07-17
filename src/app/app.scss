@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  background-color: lightgrey;
+  font-family: sans-serif;
+  position: relative;
+
+  .content {
+    background-color: white;
+    left: -400px;
+    margin-left: 50%;
+    padding: 25px;
+    position: relative;
+    width: 800px;
+
+    &.use-focus-visible {
+      .focus-visible {
+        border-color: transparent;
+        box-shadow: 0 0 0 4px blue;
+        outline: none;
+        transition: box-shadow 0.125s linear;
+
+        &::-moz-focus-inner {
+          border: 0;
+        }
+      }
+    }
+  }
+
+  section {
+    overflow: hidden;
+    padding: 0 0 25px 0;
+  }
+
+  h1, h2, h3 {
+    margin-top: 25px;
+  }
+
+  label {
+    display: block;
+    font-size: 11pt;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.5;
+
+    &.radio-label,
+    &.checkbox-label {
+      display: inline-block;
+      cursor: pointer;
+      margin-left: 5px;
+    }
+
+    &.main-checkbox-label {
+      display: inline-block;
+      cursor: pointer;
+      margin-left: 5px;
+      font-style: normal;
+      font-weight: normal;
+    }
+  }
+
+  fieldset {
+    margin: 25px 0;
+  }
+}

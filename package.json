@@ -1,0 +1,39 @@
+{
+  "name": "cra-focus-visible",
+  "description": "A demo using Create React App with the focus-visible library",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Mat Janson Blanchet <mat.jb@jansensan.net> (https://jansensan.net)",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "dependencies": {
+    "focus-visible": "^5.1.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "resolutions": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
