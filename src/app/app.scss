@@ -17,6 +17,14 @@ body {
     width: 800px;
 
     &.use-focus-visible {
+      /*
+        This will hide the focus indicator if the element receives focus via the mouse,
+        but it will still show up on keyboard focus.
+      */
+      .js-focus-visible :focus:not(.focus-visible) {
+        outline: none;
+      }
+
       .focus-visible {
         border-color: transparent;
         box-shadow: 0 0 0 4px blue;
